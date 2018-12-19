@@ -6,7 +6,7 @@
 diff -x '.*' -rq . ~/Archive > ~/difference.txt
 # Only Saves the second line for scp(source copy)
 ##file='~/difference.txt'
-if [ ! -f "~/difference.txt" ]
+if [ ! -f ~/difference.txt ]
 then
    echo "Difference File doesn't exist"
 else
