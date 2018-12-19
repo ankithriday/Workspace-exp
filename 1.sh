@@ -10,7 +10,6 @@ if [ ! -f ~/difference.txt ]
 then
    echo "Difference File doesn't exist"
 else
-   echo "a is not equal to b"
    cat ~/difference.txt | awk '{print $2}' > ~/file.txt
 
 fi
