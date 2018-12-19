@@ -5,7 +5,7 @@
 # save differences ignores any hidden files between current directory and archive
 diff -x '.*' -rq . ~/Archive > ~/difference.txt
 # Only Saves the second line for scp(source copy)
-file='difference.txt'
+file='~/difference.txt'
 if [ ! -f "$file" ]
 then
    echo "Difference File doesn't exist"
