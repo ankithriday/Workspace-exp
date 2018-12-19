@@ -1,7 +1,7 @@
 rm ~/difference.txt
 diff -rq . ~/Archive > ~/difference.txt
 
-sed '/git/d' ~/difference.txt > maindiff.txt
+sed '/git/d' ~/difference.txt > ~/maindiff.txt
 
 cp -r . ~/Archive
 
